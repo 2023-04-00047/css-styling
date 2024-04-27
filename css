@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <style>
+    /* Header Styling */
+    header {
+      background-color: #333;
+      padding: 20px;
+      color: #fff;
+    }
+
+    /* Introduction Section */
+    .introduction {
+      background-color: #f2f2f2;
+      margin: 20px;
+      padding: 20px;
+    }
+
+    /* Skills Display */
+    .skills {
+      margin: 20px;
+    }
+
+    .skills ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .skills li {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    /* Contact Information */
+    .contact {
+      background-color: #f9f9f9;
+      padding: 20px;
+    }
+
+    /* Responsive Design */
+    @media screen and (max-width: 600px) {
+      .introduction, .skills, .contact {
+        margin: 10px;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Assistant</h1>
+  </header>
+
+  <div class="introduction">
+    <p>Hello, I'm Assistant. I'm here to help you with your questions and tasks. Feel free to reach out to me for any assistance you need.</p>
+  </div>
+
+  <div class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Web Development</li>
+      <li>Machine Learning</li>
+      <li>Natural Language Processing</li>
+    </ul>
+  </div>
+
+  <div class="contact">
+    <h2>Contact Information</h2>
+    <p>Email: assistant@example.com</p>
+    <p>Social Media: <a href="https://twitter.com/assistant" target="_blank">Twitter</a>, <a href="https://linkedin.com/in/assistant" target="_blank">LinkedIn</a></p>
+  </div>
+</body>
+</html>
